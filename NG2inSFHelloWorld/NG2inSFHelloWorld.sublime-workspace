@@ -8,10 +8,34 @@
 	"buffers":
 	[
 		{
-			"file": "src/staticresources/app.resource",
+			"file": "src/classes/SFRemoteController.cls",
 			"settings":
 			{
-				"buffer_size": 2028760,
+				"buffer_size": 464,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/shiva/AppData/Roaming/Sublime Text 3/Packages/MavensMate/mavensmate.sublime-settings",
+			"settings":
+			{
+				"buffer_size": 9772,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "NG2inSFHelloWorld.sublime-settings",
+			"settings":
+			{
+				"buffer_size": 196,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/shiva/AppData/Roaming/Sublime Text 3/Packages/User/mavensmate.sublime-settings",
+			"settings":
+			{
+				"buffer_size": 9772,
 				"line_ending": "Unix"
 			}
 		}
@@ -58,34 +82,34 @@
 	},
 	"expanded_folders":
 	[
-		"/D/Workspace/Angular2InSalesforce",
-		"/D/Workspace/Angular2InSalesforce/src",
-		"/D/Workspace/Angular2InSalesforce/src/staticresources"
+		"/D/Angular2InSalesforce/NG2inSFHelloWorld",
+		"/D/Angular2InSalesforce/NG2inSFHelloWorld/src",
+		"/D/Angular2InSalesforce/NG2inSFHelloWorld/src/classes"
 	],
 	"file_history":
 	[
-		"/D/Workspace/Angular2/angular2typescript/app/app.component.ts",
-		"/D/Workspace/Angular2/angular2typescript/app/app.component.js",
-		"/D/Workspace/Angular2/angular2typescript/index.html",
-		"/D/Workspace/Angular2/angular2typescript/app/mock-heroes.ts",
-		"/D/Workspace/Angular2/angular2typescript/app/hero.service.ts",
-		"/D/Workspace/Angular2/angular2typescript/app/hero.ts",
-		"/D/Workspace/Angular2/angular2typescript/app/hero-detail.component.ts",
-		"/D/Workspace/Angular2/angular2typescript/tsconfig.json",
+		"/D/Angular2InSalesforce/Angular2/angular2typescript/app/app.component.ts",
+		"/D/Angular2InSalesforce/Angular2/angular2typescript/app/app.component.js",
+		"/D/Angular2InSalesforce/Angular2/angular2typescript/index.html",
+		"/D/Angular2InSalesforce/Angular2/angular2typescript/app/mock-heroes.ts",
+		"/D/Angular2InSalesforce/Angular2/angular2typescript/app/hero.service.ts",
+		"/D/Angular2InSalesforce/Angular2/angular2typescript/app/hero.ts",
+		"/D/Angular2InSalesforce/Angular2/angular2typescript/app/hero-detail.component.ts",
+		"/D/Angular2InSalesforce/Angular2/angular2typescript/tsconfig.json",
 		"/C/Users/shiva/AppData/Roaming/Sublime Text 3/Packages/User/mavensmate.sublime-settings",
-		"/D/Workspace/Angular2/angular2typescript/app/main.ts",
-		"/D/Workspace/Angular2/angular2typescript/typings.json",
-		"/D/Workspace/Angular2/angular2typescript/package.json",
-		"/D/Workspace/Angular2/angular2-quickstart/package.json",
-		"/D/Workspace/Angular2/angular2-quickstart/app/app.component.js",
-		"/D/Workspace/Angular2/angular2-quickstart/app/main.js",
-		"/D/Workspace/Angular2/angular2-quickstart/index.html",
+		"/D/Angular2InSalesforce/Angular2/angular2typescript/app/main.ts",
+		"/D/Angular2InSalesforce/Angular2/angular2typescript/typings.json",
+		"/D/Angular2InSalesforce/Angular2/angular2typescript/package.json",
+		"/D/Angular2InSalesforce/Angular2/angular2-quickstart/package.json",
+		"/D/Angular2InSalesforce/Angular2/angular2-quickstart/app/app.component.js",
+		"/D/Angular2InSalesforce/Angular2/angular2-quickstart/app/main.js",
+		"/D/Angular2InSalesforce/Angular2/angular2-quickstart/index.html",
 		"/C/Users/shiva/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
 		"/C/Users/shiva/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings"
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 250.0
 	},
 	"find_in_files":
 	{
@@ -99,6 +123,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Workspace",
 			"hero",
 			" =>",
 			"\"\"\n",
@@ -125,11 +150,69 @@
 			[
 				{
 					"buffer": 0,
-					"file": "src/staticresources/app.resource",
-					"semi_transient": true,
+					"file": "src/classes/SFRemoteController.cls",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2028760,
+						"buffer_size": 464,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								350,
+								352
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MavensMate/sublime/lang/Apex.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/shiva/AppData/Roaming/Sublime Text 3/Packages/MavensMate/mavensmate.sublime-settings",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9772,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								857,
+								857
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "NG2inSFHelloWorld.sublime-settings",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 196,
 						"regions":
 						{
 						},
@@ -142,19 +225,42 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"typescript_plugin_format_options":
-							{
-								"convertTabsToSpaces": false,
-								"indentSize": 4,
-								"tabSize": 4
-							}
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Users/shiva/AppData/Roaming/Sublime Text 3/Packages/User/mavensmate.sublime-settings",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9772,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								813,
+								815
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -193,14 +299,14 @@
 	"menu_visible": true,
 	"output.MavensMate-OutputPanel":
 	{
-		"height": 100.0
+		"height": 281.0
 	},
 	"output.find_results":
 	{
 		"height": 0.0
 	},
 	"pinned_build_system": "",
-	"project": "Angular2InSalesforce.sublime-project",
+	"project": "NG2inSFHelloWorld.sublime-project",
 	"replace":
 	{
 		"height": 42.0
