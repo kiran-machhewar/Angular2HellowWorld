@@ -1,0 +1,47 @@
+<apex:page showHeader="false"  applyBodyTag="false" controller="IndexPageController"
+        applyHtmlTag="false" standardStylesheets="false" sidebar="false" docType="html">
+
+
+<html>
+  <head>
+    <title>Angular 2 Application</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>    
+
+    <!-- 1. Load libraries -->
+    <!-- IE required polyfills, in this exact order -->
+    <script src="{!URLFOR($Resource.angular2,'es6-shim.min.js')}"></script>
+    <script src="{!URLFOR($Resource.angular2,'system-polyfills.js')}"></script>
+    
+    <script src="{!URLFOR($Resource.angular2,'angular2-polyfills.js')}"></script>
+    <script src="{!URLFOR($Resource.angular2,'system.js')}"></script>
+    <script src="{!URLFOR($Resource.angular2,'typescript.js')}"></script>
+    <script src="{!URLFOR($Resource.angular2,'Rx.js')}"></script>
+    <script src="{!URLFOR($Resource.angular2,'angular2.dev.js')}"></script>
+    <!-- Latest compiled and minified CSS -->
+    <!-- CSS of bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"/>
+
+    <!-- 2. Configure SystemJS -->
+    <script>
+      System.config({
+        transpiler: 'typescript', 
+        typescriptOptions: { emitDecoratorMetadata: true }, 
+        packages: {'app': {defaultExtension: 'ts'}} ,
+        paths: {
+            'app/*': '../../../resource/{!staticResourceSystemModStamp}/app/app/*'
+        }
+      });
+      System.import('app/main')
+            .then(null, console.error.bind(console));
+    </script>
+
+  </head>
+
+  <!-- 3. Display the application -->
+  <body>
+    <my-app>Loading...</my-app>
+  </body>
+
+</html>
+<c:SFRemote />
+</apex:page>

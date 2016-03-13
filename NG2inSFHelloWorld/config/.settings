@@ -1,0 +1,19 @@
+{
+    "username": "angular2@sflab.com", 
+    "environment": "production", 
+    "project_name": "Angular2InSalesforce", 
+    "workspace": "D:/Workspace", 
+    "org_url": "", 
+    "namespace": "", 
+    "id": "46AK7F3VVAWHBMAYMXNNCYF5KKKI2GT4", 
+    "metadata_container": "1dc28000000QztEAAS", 
+    "subscription": [
+        "ApexClass", 
+        "ApexComponent", 
+        "ApexPage", 
+        "ApexTrigger", 
+        "StaticResource", 
+        "CustomObject", 
+        "Profile"
+    ]
+}
