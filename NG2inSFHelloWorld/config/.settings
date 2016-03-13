@@ -1,8 +1,8 @@
 {
     "username": "angular2@sflab.com", 
     "environment": "production", 
-    "project_name": "Angular2InSalesforce", 
-    "workspace": "D:/Workspace", 
+    "project_name": "NG2inSFHelloWorld", 
+    "workspace": "D:/Angular2InSalesforce", 
     "org_url": "", 
     "namespace": "", 
     "id": "46AK7F3VVAWHBMAYMXNNCYF5KKKI2GT4", 
